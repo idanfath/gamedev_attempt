@@ -1,0 +1,17 @@
+#canvas {
+    background-color: rgb(67, 67, 67);
+    height: 900px;
+    width: 700px;
+    border-radius: 10px;;
+    border: 2px solid white;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(29, 29, 29);
+}
+
