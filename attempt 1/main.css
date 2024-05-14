@@ -1,17 +1,42 @@
 #canvas {
+    position: fixed;
     background-color: rgb(67, 67, 67);
-    height: 900px;
-    width: 700px;
-    border-radius: 10px;;
+    border-radius: 10px;
     border: 2px solid white;
 }
 
+#popuptop, #popup{
+    z-index: 10;
+    color: white;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#popuptop {
+    position: relative;
+    font-size: 30px;
+    text-align: left;
+    right: 500px;
+}
+
+#popup {
+    position: fixed;
+    display: flex;
+}
+
 body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Tahoma;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 900px;
     background-color: rgb(29, 29, 29);
 }
 
+.debug {
+    position: fixed;
+    left: 100px;
+    top: 50%;
+}
